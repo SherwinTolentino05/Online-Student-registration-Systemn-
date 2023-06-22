@@ -1,0 +1,133 @@
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+  
+  ::selection{
+    color: rgb(173, 47, 47);
+    background: #fff;
+  }
+  
+  nav{
+    position: fixed;
+    background: #910707;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+  }
+  
+  nav .menu{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  .logos img{
+    display: block;
+    float: lefts;
+    width: 90px;
+    height: 70px;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-left:10px;
+    margin-left: 0px;
+    scroll-margin-block-end: 45px;
+    
+  }
+  
+  .menu .pup a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 80px;
+  }
+  
+  .menu ul{
+    display: inline-flex;
+  
+  }
+  
+  .menu ul li{
+    list-style: none;
+    margin-left: 7px;
+  
+  }
+  
+  .menu ul li:first-child{
+    margin-left: px;
+    margin-bottom: px;
+    
+  }
+  
+  .menu ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+  }
+  
+  .menu ul li a:hover{
+    background: #fff;
+    color: rgb(175, 6, 6);
+    
+  }
+  
+  .img{
+    background: url('pupColor.png')no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+
+  .img::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  
+  
+  .center{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  .center .title{
+    color: #fff;
+    font-size: 55px;
+    font-weight: 600;
+  }
+  
+  .center .sub_title{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 520;
+  }
+
+    
+  
+  
+
+ 

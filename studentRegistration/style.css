@@ -1,0 +1,166 @@
+ 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+::selection{
+  color: rgb(173, 47, 47);
+  background: #fff;
+}
+
+nav{
+  position: fixed;
+  background: #910707;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logos img{
+    display: block;
+        float: lefts;
+        width: 90px;
+        height: 70px;
+        padding-top: 0px;
+        padding-right: 10px;
+        padding-left:10px;
+        margin-left: 5px;
+}
+
+.menu .pup a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 80px;
+}
+
+.menu ul{
+  display: inline-flex;
+
+}
+
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+
+}
+
+.menu ul li:first-child{
+  margin-left: px;
+  margin-bottom: px;
+  
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.menu ul li a:hover{
+  background: #fff;
+  color: rgb(175, 6, 6);
+  
+}
+
+.img{
+  background: url('building.jpeg')no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.img::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.center{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.center .title{
+  color: #fff;
+  font-size: 55px;
+  font-weight: 600;
+}
+
+.center .sub_title{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.center .btns{
+  margin-top: 30px;
+}
+
+/*lower buttons*/
+.center .btns button{
+  height: 55px;
+  width: 170px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid rgb(253, 248, 248);
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+/* log in button*/
+.center .btns button:first-child{
+  color: rgb(255, 255, 255);
+  background: none;
+}
+
+/* register button */
+.center .btns button:last-child{
+    color: rgb(255, 255, 255);
+    background: none;
+}
+
+/*changing color*/
+.btns button:first-child:hover{
+  background: rgb(255, 255, 0);
+  color: black;
+}
+
+/*changing color*/
+.btns button:last-child{
+  background: rgb(255, 251, 0);
+  color: black;
+}
